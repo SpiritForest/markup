@@ -1,0 +1,96 @@
+@font-face{
+	font-family: 'Georgia';	
+	src: url('../fonts/georgiaitalic.ttf');
+	font-weight: normal;
+	font-style: italic;
+	}
+	
+	@font-face{
+		font-family: 'Myriad';	
+		src: url('../fonts/MyriadProBold.ttf');
+		font-weight: bold;
+		font-style: normal;
+		}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0 auto;
+  width: 1600px;
+  height: 100%;
+}
+.wrapper {
+
+}
+.content {
+
+}
+footer {
+
+}
+
+header {
+	height: 1064px;
+	background-color: #000;
+	position: relative;
+}
+
+nav {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	height: 90px;
+	width: 1194px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.17);
+
+}
+
+nav .anchors a {
+	color: #fff;
+	text-decoration: none;
+}
+
+header .image {
+	opacity: 0.17;
+	position: relative;
+	top: 47px;
+}
+
+.textBlock {
+	color: #fff;
+	width: 445px;
+	height: 190px;
+	position: absolute;
+	top: 418px;
+	left: 578px;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	border: 1px solid white; 
+}
+.textBlock p {
+	margin: 0;
+	margin-top: 4px;
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 32px;
+}
+ 
+.textBlock h1 {
+	margin: 0;
+	font-family: Myriad;
+	font-weight: bold;
+	font-size: 72px;
+}
+
+.member {
+	height: 121px;
+	opacity: 0.5;
+	background-color: #39d083;
+	position: relative;
+	top : -121px;
+}
