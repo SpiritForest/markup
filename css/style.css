@@ -205,13 +205,25 @@ header .image {
 	top: -121px;
 }
 
-.block-of-text{
+.block-of-text {
 	width: 520px;
     height: 180px;
     position: relative;
     left: 199px;
 	top: 98px;
-	border-right: 1px dotted black;
+}
+.block-text:after {
+    content: url(../images/side-bar.png);
+    position: absolute;
+    left: 519px;
+    top: 8px;
+}
+
+.block-text:before {
+    content: url(../images/top-bar.png);
+    position: absolute;
+    top: -112px;
+    left: 1px;
 }
 
 .block-text {
@@ -246,10 +258,12 @@ header .image {
 }
 
 .comments {
-	height: 190px;
-	border: 1px solid blue;
-	position: relative;
-	top: -121px;
+    height: 190px;
+    border: 1px solid blue;
+    position: relative;
+    top: -121px;
+    background-image: url(../images/comments-bg.png);
+    background-position: -3px -437px;
 }
 
 .functions {
