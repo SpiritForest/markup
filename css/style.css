@@ -257,6 +257,34 @@ header .image {
 	letter-spacing: 0.05px;
 }
 
+.team {
+    display: flex;
+    justify-content: space-between;
+    width: 553px;
+    position: absolute;
+    left: 824px;
+    top: 111px;
+}
+
+.member1 {
+	background-image: url('../images/team/member1.png')
+}
+
+.member2 {
+	background-image: url('../images/team/member2.png')
+}
+
+.member3 {
+	background-image: url('../images/team/member3.png')
+}
+
+.wrapper-member {
+	border: 1px solid black;
+	 width: 95px;
+	 height: 95px;
+	border-radius: 90px;
+}
+
 .comments {
     height: 190px;
     border: 1px solid blue;
