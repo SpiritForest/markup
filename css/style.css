@@ -198,20 +198,29 @@ header .image {
 	top: -121px;
 }
 
+.packages .background {
+	position: relative;
+	z-index: 1;
+}
+
 .packs {
 	overflow: hidden;
 	position: relative;
-	top: 100px;
-	left: 199px;
+    top: -293px;
+    left: 140px;
+	display: flex;
+	z-index: 2;
 }
 
 .block {
+	background-color: #fff;
+	margin: 5px 0 5px 59px;
 	width: 255px;
 	height: 565px;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.06)
 }
 
 .block:nth-child(1) {
-	border: 1px solid black;
 	border-top: 5px solid #f9d423;
 }
 
@@ -219,7 +228,18 @@ header .image {
 	height: 148px;
 }
 
-.block .top h2, .block .bottom p:last-child {
+.circle {
+	height: 56px;
+	width: 56px;
+	position: relative;
+	top: 36px;
+    left: 95px;
+	border-radius: 50%;
+	border: 1px solid blue;
+}
+
+
+.block .bottom p:last-child {
 	font-family: Myriad;
 	font-weight: bold;
 	font-size: 17px;
@@ -227,23 +247,48 @@ header .image {
 	text-align: center;
 }
 
+.block .top h2 {
+	font-family: Lato;
+	font-size: 16px;
+    margin-top: 52px;
+    margin-left: 65px;
+}
+
 .block .middle {
-	height: 282px;
+	height: 284px;
 	width: 200px;
 	overflow: hidden;
 	margin: 0 auto;
 	position: relative;
-	top: -14px;
-	font-family: ﻿Myriad;
-	font-size: 16px;
+	top: -5px;
 	color: rgba(180, 180, 180, 255);
 	text-align: left;
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+
+.middle p {
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+	color: #b4b4b4;
+	letter-spacing: -0.3px;
+	word-spacing: 1px;
+}
+
+.middle .px14 {
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	color: #b4b4b4;
+	letter-spacing: -0.3px;
 }
 
 .middle div {
 	display: flex;
 	justify-content: space-between;
-	height: 38px;
+    height: 38.5px;
 }
 
 .middle p:last-child {
@@ -254,12 +299,49 @@ header .image {
 	height: 133px;
 }
 
-.bottom p:first-child {
-	font-family: Myriad;
-	font-size: 21px;
+.bottom p {
+	font-family: Lato;
+	font-weight: 900;
+	font-size: 27.7px;
 	text-align: center;
 	font-weight: bold;
+	margin-top: 23px;
+}
 
+.bottom p::before {
+	content: "$";
+	font-family: Lato;
+	font-weight: 700;
+	font-size: 16px;
+	position: relative;
+    top: -6px;
+    left: -1px;
+}
+
+.bottom span:last-child {
+	font-family: Lato;
+	font-weight: 400;
+	font-size: 13px;
+	color: #b4b4b4;
+}
+
+.bottom a {
+	text-decoration: none;
+	color: black;
+	font-family: Lato;
+	font-weight: 700;
+	font-size: 16px;
+	position: relative;
+    left: 77px;
+    top: -4px;
+}
+
+.bottom .line {
+	width: 105px;
+	border-top: 3px solid #f9d423;
+	position: relative;
+	left: 74px;
+    top: -43px;
 }
 
 .about-us {
