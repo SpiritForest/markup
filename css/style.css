@@ -655,3 +655,46 @@ footer .menu a:hover {
 	font-weight: 16px;
 	color: #fff;
 }
+
+.description, .links, .adress {
+	width: 503px;
+	height: 150px;
+}
+
+.info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.info .links ul {
+	height: 150px;
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;	
+}
+
+.info .links a {
+	text-decoration: none;
+	color: rgba(104, 104, 104, 255);
+}
+
+.info .links a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.info .links li {
+	margin-top: 15px;
+}
+
+.description {
+	border-right: 1px solid rgba(104, 104, 104, 255);
+}
+
+.description-wrapper {
+	width: 295px;
+	height: 106px;
+	overflow: hidden;
+	color: rgba(104, 104, 104, 255);
+}
