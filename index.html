@@ -51,19 +51,44 @@
         </header>
             <div class="member">
                 <div class="logreg">
-                    <div class="login">
+                    <button class="login">
                         <p>LOGIN</p>
-                    </div>
-                    <div class="register">
+                    </button>
+                    <button class="register">
                         <p>REGISTER</p>
-                    </div>
+                    </button>
                 </div>
             </div>
             <div class="domain">
+                <form action="">
+                        <label for="domen-name">
+                            <div>www.</div>
+                        </label>
+                        <input type="text" id="domen-name" pattern="[A-Za-z\s]+"
+                        maxlength="30" minlength="2" placeholder="What do you want?" class="input-one" required />
+                        <select>
+                                <option value="com" selected>.com</option>
+                                <option value="net">.net</option>
+                                <option value="org">.org</option>
+                        </select>
+                </form>
                 <div class="text">
                     <p>Would you like to buy a new domain ?</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor mauris ac nulla interdum, id molestier.</p>
                 </div>
+                <div class="table-bg">
+                </div>
+                    <div class="table">
+                            <div class="cell"><p class="dom">.COM</p></div>
+                            <div class="cell"><p class="dom">1 Year</p></div>
+                            <div class="cell"><p class="dom">$9.00 USD</p></div>
+                            <div class="cell"><p class="dom">Transfer Price No</p></div>
+                            <div class="cell"><p class="dom">.NET</p></div>
+                            <div class="cell"><p class="dom">1 Year</p></div>
+                            <div class="cell"><p class="dom">$9.00 USD</p></div>
+                            <div class="cell"><p class="dom">Transfer Price No</p></div>
+                    </div>
+
             </div>
             <div class="packages">
                 <div class="background">
@@ -72,8 +97,18 @@
                 <div class="packs">
                     <div class="block">
                         <div class="top">
-                            <div class="circle">
-                                
+                            <div class="circle-svg">
+                                    <div class="circle-content-1 circle-content">
+                                            <i class="fa fa-anchor"></i>
+                                    </div>
+                                <svg viewBox="0 0 36 36" class="circular-chart">
+                                    <path class="circle-1"
+                                      stroke-dasharray="25, 100"
+                                      d="M18 2.0845
+                                        a 15.9155 15.9155 0 0 1 0 31.831
+                                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                                    />
+                                  </svg>
                             </div>
                             <h2>BASIC PACKAGE</h2>
                         </div>
@@ -116,8 +151,18 @@
                     </div>
                     <div class="block">
                         <div class="top">
-                            <div class="circle">
-                                
+                            <div class="circle-svg">
+                                <div class="circle-content-2 circle-content">
+                                        <i class="fa fa-star-half-empty"></i>
+                                </div>
+                                <svg viewBox="0 0 36 36" class="circular-chart">
+                                    <path class="circle-2"
+                                      stroke-dasharray="50, 100"
+                                      d="M18 2.0845
+                                        a 15.9155 15.9155 0 0 1 0 31.831
+                                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                                    />
+                                  </svg>
                             </div>
                             <h2>NORMAL PACKAGE</h2>
                         </div>
@@ -160,8 +205,18 @@
                     </div>
                     <div class="block">
                         <div class="top">
-                            <div class="circle">
-                                
+                            <div class="circle-svg">
+                                    <div class="circle-content-3 circle-content">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                <svg viewBox="0 0 36 36" class="circular-chart">
+                                    <path class="circle-3"
+                                      stroke-dasharray="75, 100"
+                                      d="M18 2.0845
+                                        a 15.9155 15.9155 0 0 1 0 31.831
+                                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                                    />
+                                  </svg> 
                             </div>
                             <h2>BIG PACKAGE</h2>
                         </div>
@@ -204,8 +259,18 @@
                     </div>
                     <div class="block">
                         <div class="top">
-                            <div class="circle">
-                                
+                            <div class="circle-svg">
+                                    <div class="circle-content-4 circle-content">
+                                            <i class="fa fa-diamond"></i>
+                                        </div>
+                                <svg viewBox="0 0 36 36" class="circular-chart">
+                                    <path class="circle-4"
+                                      stroke-dasharray="100 , 100"
+                                      d="M18 2.0845
+                                        a 15.9155 15.9155 0 0 1 0 31.831
+                                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                                    />
+                                  </svg>
                             </div>
                             <h2>BIGGEST PACKAGE</h2>
                         </div>
@@ -252,7 +317,7 @@
                 <div class="text-about">
                     <div class="block-of-text">
                         <div class="block-text">
-                            <h2><span>About </span><span>Us</span></h2>
+                            <h2><span>About </span>Us</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                     Praesent feugiat eget diam sit amet molestie.Curabitur. 
                                     ut ipsum bibendum tortor lacinia fermentum nec joeıa.
